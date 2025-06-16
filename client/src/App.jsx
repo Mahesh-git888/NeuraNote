@@ -1,9 +1,12 @@
+import React from 'react';
+import TaskManager from './components/TaskManager';
+
 function App() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center">
-      <h1 className="text-4xl font-bold text-blue-600">🚀 Tailwind v4 + Vite is working!</h1>
+    <div>
+      <TaskManager />
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
