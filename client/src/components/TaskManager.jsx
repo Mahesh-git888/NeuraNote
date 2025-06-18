@@ -30,7 +30,7 @@ function TaskManager() {
         <input
           value={input}
           onChange={(e) => setInput(e.target.value)}
-          placeholder="Enter a task..."
+          placeholder="Enter the task..."
         />
         <button onClick={addTask}>Add</button>
       </div>
